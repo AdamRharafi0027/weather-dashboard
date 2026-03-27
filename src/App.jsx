@@ -1,11 +1,9 @@
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import Header from "./components/Header/Header";
 import HeroCard from "./components/HeroCard/HeroCard";
 import { WeatherContext, WeatherDataContext } from "./context/Context";
-import { motion } from "motion/react";
-import { CloudOff, RotateCw } from "lucide-react";
 import SkeletonLoading from "./components/SkeletonLoading";
-import HasSearched from "./HasSearched";
+import HasSearched from "./components/HasSearched";
 import ErrorState from "./components/ErrorState";
 
 const App = () => {
